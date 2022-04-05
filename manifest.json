@@ -1,0 +1,26 @@
+{
+  "name": "Instagram Follower Check",
+  "description": "With IFC you can check your Instagram Followers.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "red.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://*/*"
+],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}

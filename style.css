@@ -1,0 +1,71 @@
+body {
+  height: 100%;
+  width: 300px;
+  background-color: #353535;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px 25px 10px 25px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  margin: 25px 25px 10px 25px;
+  color: red;
+}
+
+h4 {
+  text-align: center;
+  margin: 10px 25px;
+  color: white;
+}
+
+#testInstaButton {
+  display: block;
+  background-color: green;
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#analysisButton {
+  display: block;
+  background-color: blue;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  align-items: flex-start;  
+  box-sizing: border-box;
+  padding: 9px 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
