@@ -1,10 +1,10 @@
 {
-  "name": "Instagram Follower Check",
-  "description": "With IFC you can check your Instagram Followers.",
+  "name": "Youtube - Skip Ad",
+  "description": "This extension skip youtube ad automaticlly",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
-    "128": "red.png"
+    "128": "YouExLogo.png"
   },
   "permissions": [
     "storage",
@@ -21,6 +21,5 @@
   },
   "action": {
     "default_popup": "popup.html"
-  },
-  "options_page": "options.html"
+  }
 }
