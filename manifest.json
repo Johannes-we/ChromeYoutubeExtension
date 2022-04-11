@@ -7,11 +7,8 @@
     "128": "YouExLogo.png"
   },
   "permissions": [
-    "storage",
-    "tabs",
     "activeTab",
-    "scripting",
-    "notifications"
+    "scripting"
   ],
   "host_permissions": [
     "https://*/*"
